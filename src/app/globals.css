@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-rgb: 230, 230, 230;
+    --text-primary-color: #498CE9;
+    --text-default-color: #181818;
+    --bg-gradient-primary: linear-gradient(to bottom, #A5B9ECC4, #ccdafdc4);
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*    :root {*/
+/*        --foreground-rgb: 255, 255, 255;*/
+/*        --background-rgb: 40, 40, 40;*/
+/*    }*/
+/*}*/
+
+html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb))
+}
+

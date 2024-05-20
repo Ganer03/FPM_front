@@ -1,0 +1,19 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.active {
+    background-color: #5C83E7;
+    color: white;
+}
+
+.textAnimation {
+    animation: slideInLeft 0.5s forwards;
+}

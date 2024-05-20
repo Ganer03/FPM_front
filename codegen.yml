@@ -1,0 +1,12 @@
+overwrite: true
+schema: "http://localhost:1337/graphql"
+documents: [
+  "src/**/*.tsx"
+]
+generates:
+  ./src/__generated__/:
+    preset: client
+    presetConfig:
+      gqlTagName: "gql"
+
+ignoreNoDocuments: true
